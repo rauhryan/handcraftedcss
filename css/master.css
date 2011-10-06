@@ -460,15 +460,12 @@ ul.lst li em {
 	}
  */
 ul.lst li a {
-    position:relative;
     display: block;
     padding:7px;
     border-bottom: 1px solid #f3f2e8;
 }
 ul.lst li em {
-    position:absolute;
-    top:7px;
-    right:7px;
+    float:right;
     font-style: normal;
     font-weight: normal;
     color: #9c836e;
