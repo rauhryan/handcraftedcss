@@ -437,7 +437,7 @@ div.alt h3 {
 	}
 
 /* menu list */
-
+/*
 ul.lst li a {
 	display: block;
 	padding: 7px;
@@ -458,6 +458,22 @@ ul.lst li em {
 	font-weight: normal;
 	color: #9c836e;
 	}
+ */
+ul.lst li a {
+    position:relative;
+    display: block;
+    padding:7px;
+    border-bottom: 1px solid #f3f2e8;
+}
+ul.lst li em {
+    position:absolute;
+    top:7px;
+    right:7px;
+    font-style: normal;
+    font-weight: normal;
+    color: #9c836e;
+}
+
 
 /* menu list with bar graphs 
 
